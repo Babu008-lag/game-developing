@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+   <style>
+      body{
+         background-color: aqua;
+      }
+      h1{
+         color: rgb(9, 170, 170);
+         font-weight: 450;
+         font-size: var(50%);
+         text-align: center;
+         text-decoration: underline;
+      }
+      form{
+         position: absolute;
+         left: 45%;
+      }
+   </style>   
+
+<body style="background-color: black;">
+    <div class="contact_form">
+        <h1 class="contact_heading">contact form</h1>
+        <form action="/result" method="POST">
+      <table>
+         <tr>
+            <td><label for="Name">name: </label></td>
+            <td><input type="text" id="Name" name="Name" placeholder="Enter your name"></td>
+         </tr>  
+         <tr>
+            <td><label for="Age">Age: </label></td>
+            <td><input type="number" id="Age" name="age" placeholder="Enter your Age"></td>
+         </tr>
+         <tr>
+            <td><label for="Dep">Department: </label></td>
+            <td><input type="text" id="Dep" name="dep" placeholder="Enter your Dep"></td>
+         </tr>
+         <tr>
+            <td><input type="submit" value="submit"></td>
+            <td><input type="reset" value="reset"></td>
+         </tr>
+      </table>
+     </form>
+     <a href="index.html"><button>Back to home</button></a>
+     </div>
+</body>
+</html>

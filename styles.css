@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    margin: 30px;
+}
+
+.main_container{
+    background-color:black ;
+    padding: 30px;
+    line-height: 35px;
+}  
+
+.container1{
+    margin-top: 10px;
+    background-color: rgba(235, 213, 172, 0.308);
+}
+
+.container2{
+    display: flex;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+
+.container1 h1{
+    color:darkred;
+    margin-bottom: 10px;
+}
+
+
+.main_container h1{
+    padding: 15px;
+    background-color: aqua;
+    border-radius: 13px;
+    margin-bottom: 10px;
+}
+
+.container2 h1{
+    color: antiquewhite;
+    margin-bottom: 10px;
+}
+
+
+.end_part{
+    background-color: gainsboro;
+    color: aqua;
+    padding: 15px;
+}
+
+/*styling the contact*/
+
+.contact_heading{
+    color: aliceblue;
+}
+
+.contact_form{
+    position: absolute;
+    left: 40%;
+    color: burlywood;
+}
+
+.contact_form button{
+    padding: 10px;
+    border: none;
+}
